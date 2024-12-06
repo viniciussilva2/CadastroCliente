@@ -39,13 +39,17 @@ O projeto segue uma arquitetura organizada em camadas, com as seguintes pastas p
   "ConnectionStrings": {
     "DefaultConnection": "Server=SEU_SERVIDOR;Database=CadastroClienteDB;Trusted_Connection=True;"
   }
+
 }
+
+<br>
 📂 Estrutura dos Endpoints
 GET /api/clientes: Lista todos os clientes.
 GET /api/clientes/{id}: Obtém um cliente pelo ID.
 POST /api/clientes: Cria um novo cliente.
 PUT /api/clientes/{id}: Atualiza um cliente existente.
 DELETE /api/clientes/{id}: Exclui um cliente.
+<br>
 📖 Documentação
 A API conta com documentação automática gerada (se configurada com Swagger). Para acessá-la, inicie a aplicação e navegue até https://localhost:5001/swagger.
 
