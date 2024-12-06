@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "CadastroCliente.Controllers.ClienteController",
+    "Method": "AdicionarCliente",
+    "RelativePath": "Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "CadastroCliente.Models.ClienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroCliente.Controllers.ClienteController",
+    "Method": "BuscarTodosClientes",
+    "RelativePath": "Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroCliente.Controllers.ClienteController",
+    "Method": "BuscarClientePorId",
+    "RelativePath": "Cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroCliente.Controllers.FuncionarioController",
+    "Method": "ObterTodosFuncionarios",
+    "RelativePath": "Funcionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroCliente.Controllers.FuncionarioController",
+    "Method": "CriarFuncionario",
+    "RelativePath": "Funcionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionario",
+        "Type": "CadastroCliente.Models.FuncionarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroCliente.Controllers.FuncionarioController",
+    "Method": "ObterFuncionarioPorId",
+    "RelativePath": "Funcionario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CadastroCliente.Controllers.FuncionarioController",
+    "Method": "ExcluirFuncionarioPorId",
+    "RelativePath": "Funcionario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
